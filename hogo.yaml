@@ -1,8 +1,0 @@
-baseURL: https://mzgindosky96.github.io/Films/
-languageCode: en-us
-title: My Films
-theme: Films  # Replace with your actual theme name
-
-outputs:
-  home:
-    - HTML
