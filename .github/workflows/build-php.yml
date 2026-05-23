@@ -4,6 +4,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Create output directory
+        run: mkdir -p _site
       - name: Run PHP generator
         run: php generate-static-page.php > _site/archive.html
       - name: Deploy to GitHub Pages
